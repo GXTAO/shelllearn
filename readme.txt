@@ -20,6 +20,12 @@ shell 基本运算符
     逻辑运算符
         &&  逻辑AND   [[ $a -lt 100 && $b -gt 100 ]]  false
         ||  逻辑OR    [[ $a -lt 100 || $b -gt 100 ]]  true
+    字符串运算符
+        =   检测两个字符是否相等    [ $a = $b ] false
+        !=                          [ $a !=$b ] true
+        -z  检测字符串长度是否为0   [ -z $a ]   false
+        -n  检测字符串长度是否为0   [ -n $a ]   true
+        str 检测字符串是否为空      [ $a ]      true
 
 
 

@@ -90,3 +90,70 @@ then
 else
     echo "false"
 fi
+
+c="abc"
+d="efg"
+
+
+#***********判断字符是否相等**********#
+if [ $c = $d ]
+then 
+    echo "$c = $d"
+else
+    echo "$a != $b"
+fi
+
+#**********判断字符串长度是否为0******#
+if [ -z $c ]
+then
+    echo " true"
+else
+    echo " false"
+fi
+
+if [ -n $a ]
+then
+    echo "true"
+else
+    echo "false"
+fi
+
+#*********判断字符串是否为空**********#
+if [ $a ]
+then
+    echo "true"
+else
+    echo "false"
+fi
+
+#!/bin/sh
+#**********打印多条语句**************#
+int=1
+while(( $int<=5 ))
+do
+    echo $int
+    let "int++"
+done
+
+#**********键盘终止***************#
+echo '<CTRL-D>'
+echo -n 'www.github.com/GXTAO'
+while read FILM
+do
+    echo "yeahh,Ti's a good web"
+done
+
+#**********无限循环*******************#
+while :
+do
+    command
+done
+
+
+while true
+do
+    command
+done
+
+#************until循环*****************#
+
