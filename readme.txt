@@ -26,6 +26,14 @@ shell 基本运算符
         -z  检测字符串长度是否为0   [ -z $a ]   false
         -n  检测字符串长度是否为0   [ -n $a ]   true
         str 检测字符串是否为空      [ $a ]      true
+    shell 流程控制
+        if else
+        if else-if else
+        for
+        while
+        until
+        case/case-break
+        continue
 
 
 

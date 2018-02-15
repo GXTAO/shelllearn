@@ -148,12 +148,29 @@ while :
 do
     command
 done
-
-
 while true
 do
     command
 done
 
 #************until循环*****************#
+until condition
+do
+    command
+done
+#************case**********************#
+echo 'Input 1 to 4'
+echo 'Input:4'
+read $aNum
+case $aNum in
+    1) echo '1'
+        ;;
+    2) echo '2'
+        ;;
+    3) echo '3'
+        ;;
+    4) echo '4'
+        ;;
+    *) echo 'error!'
+esac
 
